@@ -1,0 +1,48 @@
+doctype html
+html.no-js(lang='en')
+head
+    //
+       META TAGS 
+    include includes/_meta.jade
+    //
+       META TAGS 
+    title BottlesTonight - Same Day Bottle Service App - What Is Bottleservice?
+    //
+       CSS 
+    include includes/_css.jade
+    //
+       End CSS 
+       John Rushworth (co-founder): Sales, biz dev, marketing, design, enabler 
+       Steven Templeman (co-founder): Ruby, iOS, Android, design, family man
+       Patrick Smith: Web, SEO/SEM, security expert, stud
+       Natalia Stone: Professional photographer, engineer, one successful exit, queen
+       Tara Landers: Community manager, content writer, voice of BottlesTonight
+    script(src='js/vendor/modernizr.js')
+body
+  include includes/_top_bar_consumer.jade
+  #team.feature_display
+    .row
+        .small-12.small-centered.large-12.columns
+          h1.white Meet The Team
+      .row
+        .small-12.small-centered.large-12.columns
+          ul.small-block-grid-1.medium-block-grid-3
+            li 
+              img(src='img/jrush.jpg') 
+              | John Rushworth (co-founder): Sales, biz dev, marketing, design, enabler
+            li 
+              img(src='img/steven.jpg') 
+              | Steven Templeman (co-founder): Ruby, iOS, Android, design, family man
+      .row
+        .small-12.small-centered.large-12.columns
+          ul.small-block-grid-1.medium-block-grid-3
+            li 
+              img(src='img/natalia.jpg') 
+              | Natalia Stone: Professional photographer, engineer, one successful exit, queen
+            li 
+              img(src='img/tara.jpg') 
+              | Tara Landers: Community manager, content writer, voice of BottlesTonight
+            li 
+              img(src='img/patrick.jpg') 
+              | Patrick Smith: Web, SEO/SEM, security expert, stud
+  include includes/_script.jade

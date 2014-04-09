@@ -1,0 +1,21 @@
+#iphone {
+	height: 500px;
+}
+
+.top.feature
+{
+	margin-bottom: 75px;
+	padding-top: 50px;
+}
+
+.feature_display {
+	height: 100%;
+}
+
+#screenshot {
+	height: 336px;
+	width: 230px;
+	left: 37px;
+	top: -414px;
+	margin-bottom: -414px;
+}

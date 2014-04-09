@@ -1,0 +1,65 @@
+doctype html
+html.no-js(lang='en')
+head
+    //
+       META TAGS 
+    include includes/_meta.jade
+    //
+       META TAGS 
+    title BottlesTonight - Same Day Bottle Service App.
+    //
+       CSS 
+    include includes/_css.jade
+    //
+       End CSS 
+    script(src='js/vendor/modernizr.js')
+body
+  include includes/_top_bar_consumer.jade
+  #hero
+    .row
+      .small-10.medium-8.small-centered.large-5.columns
+        img(src='img/bt_logo@2x.png')
+    .row.text-center
+      .small-12.small-centered.large-6.columns
+        h2.white.shadowed Make A Memory Tonight
+    .row
+      .small-6.medium-3.small-centered.large-2.columns
+        a(href='https://itunes.apple.com/us/app/bottlestonight/id631017967?mt=8&uo=4', style='display: inline-block;overflow: hidden;background: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width: 135px;height: 40px;',target='itunes_store')
+  #demo.feature_display
+    .row
+      .small-12.large-4.columns
+        ul
+          li#same_day.top.feature.phone_change.active
+            h4 Same Day Bottle Service
+            p
+              | Book bottle service deals at the hottest nightclubs and lounges from the convenience of your smartphone. Save up to 70%.
+          li#split.feature.phone_change
+            h4 Split The Bill
+            p Divide the tab before you make a purchase. Never wait for paybacks again!
+      .small-12.large-4.columns.text-center.show-for-large-up
+        img#iphone(src='img/iphone.png')
+        img#screenshot.small-4.large-4.columns.text-center.show-for-large-up(src='img/same_day.jpg')
+      .small-12.large-4.columns
+        ul
+          li#simple.top.feature.phone_change
+            h4 Simple And Elegant
+            p
+              | View beautiful photos, interesting descriptions, and the entire bottle service menu prior to making a purchase.
+          li#rate.feature.phone_change
+            h4 Mutual Ratings
+            p
+              | Rate your experience at each nightclub. Dress to impress and be on your best behavior, venues rate you too!
+  #consumer_partners
+    .row
+      .small-12.large-12.columns
+        h2 Our partners:
+    .row
+      .small-12.small-centered.large-12.columns.small-centered
+        ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3.small-centered.text-center 
+          li
+            img.small-4(src='img/redbull.jpg')
+          li
+            img.small-4(src='img/uber.png')
+          li
+            img.small-4(src='img/kiip-logo.png')
+  include includes/_script.jade

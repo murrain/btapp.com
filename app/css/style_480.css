@@ -1,0 +1,73 @@
+#hero {
+	height: 500px;
+	padding-top: 20px;
+}
+
+#demo {
+	padding-top: 20px;
+}
+
+#split, #rate {
+	margin-top:20px;
+}
+
+#merchant_interest {
+	padding-top: 0.35em;
+}
+
+#merchant_interest .small-4, #merchant_interest .columns {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+#merchant_interest .small-1 {
+	padding-left: 0;
+	float:left;
+}
+
+.feature_display {
+	height: 100%;
+}
+
+.feature_display.page1 {
+	background: #181810 url('../img/page1_m.jpg') no-repeat scroll;
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.feature_display.page2 {
+	background: #181810 url('../img/page2_m.jpg') no-repeat bottom scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.feature_display.page3 {
+	background: #181810 url('../img/page3_m.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.feature_display.page4 {
+	background: #181810 url('../img/page4_m.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.feature_display.page5 {
+	background: #181810 url('../img/page5_m.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.feature_display.page6 {
+	background: #181810 url('../img/page6_m.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}

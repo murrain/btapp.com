@@ -1,0 +1,31 @@
+#hero {
+	height: 90vh;
+	padding-top: 5vh;
+}
+
+#demo {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.feature_display {
+	height: 100vh;
+}
+
+.feature_display .feature.active {
+	background-color: RGBA(90,90,90,0.5);
+}
+
+.top.feature
+{
+	margin-bottom: 150px;
+	padding-top: 50px;
+}
+
+#screenshot {
+	height: 436px;
+	width: 288px;
+	left: 9px;
+	top: -535px;
+	margin-bottom: -535px;
+}

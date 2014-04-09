@@ -1,0 +1,26 @@
+//TOP BAR, STICKY 
+.contain-to-grid.sticky.z-999(data-options='sticky_on: large' style='padding-bottom:5px').hideoverflow
+  nav.top-bar(data-topbar='data-topbar')
+    ul.title-area
+      li.name
+        form#merchant_interest
+          .row
+            .small-4.large-5.columns
+              input#right-label(type='text', placeholder='Venue name')
+            .small-4.large-5.columns
+              input#right-label(type='text', placeholder='Email')
+            .small-1.large-2.columns
+              input#right-label.button(type='submit' value='Sign Up' style='height:36px;')
+        #merchant_loading
+          .row
+            .small-4.columns
+              p.white Submitting
+            .small-8.columns
+              img(src='img/loading.gif')
+        #merchant_submitted
+          .row
+            .small-12.columns
+              p.white Thanks! Someone from our team with contact you soon.
+
+
+//END TOP BAR
