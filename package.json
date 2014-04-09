@@ -1,15 +1,15 @@
 {
-  "name": "zf5_project",
+  "name": "BottlesTonightApp.com",
   "description": "",
-  "version": "0.0.1",
-  "homepage": "",
+  "version": "1.0.0",
+  "homepage": "http://www.bottlestonightapp.com",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Patrick Smith",
+    "email": "patrick@bottlestonightapp.com"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/murrain/btapp.com"
   },
   "devDependencies": {
     "node-sass": "~0.8.3",
