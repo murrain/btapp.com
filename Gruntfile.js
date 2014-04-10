@@ -144,7 +144,8 @@ module.exports = function(grunt) {
 		jade: {
         		compile: {
             			options: {
-                			pretty: true
+                			pretty: true,
+                			data: {}
             			},
             			files: grunt.file.expandMapping(['**/*.jade'], '<%= app %>/', {
                 			cwd: 'src/templates',

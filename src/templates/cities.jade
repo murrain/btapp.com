@@ -1,0 +1,39 @@
+doctype html
+html.no-js(lang='en')
+head
+    //
+       META TAGS 
+    include includes/_meta.jade
+    //
+       META TAGS 
+    title BottlesTonight - Same Day Bottle Service App - Cities
+    //
+       CSS 
+    include includes/_css.jade
+    //
+       End CSS 
+    script(src='js/vendor/modernizr.js')
+body(style='background-color:#3b3b3b;')
+  include includes/_top_bar_consumer.jade
+  .row
+    .small-12.small-centered.large-12.columns
+      ul#cities
+        li.city
+          a(href='san_francisco.html')
+            h2.city.white.shadowed.live
+              | San Francisco
+            img.small-12.large-12(src='img/san_francisco.jpg')
+        li.city
+          a(href='los_angeles.html')
+            h2.city.white.shadowed.live
+              | Los Angeles
+            img.small-12.large-12(src='img/los_angeles.jpg')
+        li.city
+          h2.city.white.shadowed
+            | Las Vegas (Coming Soon)
+          img.small-12.large-12(src='img/las_vegas_soon.jpg')
+        li.city
+          h2.city.white.shadowed
+            | New York (Coming Soon)
+          img.small-12.large-12(src='img/new_york_soon.jpg')  
+  include includes/_script.jade

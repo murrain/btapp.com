@@ -1,0 +1,44 @@
+doctype html
+html.no-js(lang='en')
+head
+    //
+       META TAGS 
+    include includes/_meta.jade
+    //
+       META TAGS 
+    title BottlesTonight - Same Day Bottle Service App - San Francisco
+    //
+       CSS 
+    include includes/_css.jade
+    //
+       End CSS 
+    script(src='js/vendor/modernizr.js')
+body(style='background-color:#3b3b3b;')
+  include includes/_top_bar_consumer.jade
+  .row
+    .small-12.small-centered.large-12.columns.text-center
+      h1.white San Francisco Venues
+  .row
+    .small-12.small-centered.large-12.columns
+      ul#venues.small-block-grid-1.medium-block-grid-3
+        li.venue
+          a(href='/venues/san_francisco/the_cellar')
+            h2.venue.white.shadowed.live.text-center
+              | The Cellar
+            img.small-12.large-12(src='img/cellar_300_300.jpg')
+        li.venue
+          a(href='/venues/san_francisco/eastside_west')
+            h2.venue.white.shadowed.live.text-center
+              | Eastside West
+            img.small-12.large-12(src='img/eastsidewest_300_300.jpg')  
+        li.venue
+          a(href='/venues/san_francisco/brunos')
+            h2.venue.white.shadowed.live.text-center
+              | Brunos
+            img.small-12.large-12(src='img/brunos_300_300.jpg')
+        li.venue
+          a(href='/venues/san_francisco/atmosphere')
+            h2.venue.white.shadowed.live.text-center
+              | Atmosphere
+            img.small-12.large-12(src='img/atmosphere_300_300.jpg')
+  include includes/_script.jade
