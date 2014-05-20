@@ -1,6 +1,7 @@
 #hero {
 	height: 90vh;
 	padding-top: 5vh;
+	min-height: 575px;
 }
 
 #demo {

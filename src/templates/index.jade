@@ -22,7 +22,20 @@ body
     .row.text-center
       .small-12.small-centered.large-6.columns
         h2.white.shadowed Make A Memory Tonight
-    .row
+    .row#download_cover.closed
+      .small-8.medium-6.small-centered.large-4.columns
+        a(href='https://itunes.apple.com/us/app/bottlestonight/id631017967?mt=8&uo=4')#cover_button.button.expand Download the App
+    .row#desktop_download
+      .small-8.medium-6.small-centered.large-4.columns
+        form#text_link(method='POST')
+          .row.collapse
+            label(for='phone_number').white Text a link to your cellphone
+          .row.collapse
+            .small-10.columns
+              input(type='text',name='phone_number', placeholder="##########")#phone_number
+            .small-2.columns
+              input(type='submit',value='Send')#text_link_submit.button.postfix
+    .row#mobile_download.hide
       .small-6.medium-3.small-centered.large-2.columns
         a(href='https://itunes.apple.com/us/app/bottlestonight/id631017967?mt=8&uo=4', style='display: inline-block;overflow: hidden;background: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width: 135px;height: 40px;',target='itunes_store')
   #demo.feature_display
@@ -67,3 +80,6 @@ body
           li
             img.small-4(src='img/kiip-logo.png')
   include includes/_script.jade
+  script.
+   if(isMobile.any()) 
+    download_for_mobile();

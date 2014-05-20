@@ -4,7 +4,7 @@
 .z-999 {
 	z-index: 999;
 }
-h1.white, h2.white, h3.white, h4.white, h5.white, p.white, span.white {
+h1.white, h2.white, h3.white, h4.white, h5.white, p.white, span.white, label.white {
 	color: #E8E8E8;
 }
 
@@ -40,6 +40,28 @@ h2.shadowed {
 
 #demo {
 	height: auto;
+}
+
+#download_cover {
+	position:relative;
+	top:43px;
+	z-index: 600;
+}
+
+#download_cover.open {
+	/*
+	-webkit-transform: translate(0px, -49px);
+	-moz-transform: translate(0px, -49px);
+	*/
+}
+
+#cover_button {
+	height: 3.4em;
+}
+
+#desktop_download {
+	position:relative;
+	top: -35px;
 }
 
 .feature_display {
@@ -142,6 +164,31 @@ ul#cities {
 
 #cities h2.city.live:hover, #venues h2.venue.live:hover {
 	background-color: RGBA(60,60,60,0.50);
+}
+
+.hide_scroll {
+	overflow: hidden;
+	padding: 0 18px;
+}
+
+.venue_details { 
+	max-height: 10em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.venue_details::-webkit-scrollbar {
+    display: none;
+}
+
+.faq_details {
+	max-height: 35em;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.faq_details::-webkit-scrollbar {
+	display: none;
 }
 
 

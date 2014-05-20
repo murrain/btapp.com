@@ -1,0 +1,48 @@
+doctype html
+html.no-js(lang='en')
+head
+    //
+       META TAGS 
+    include includes/_meta.jade
+    //
+       META TAGS 
+    title BottlesTonight - Same Day Bottle Service App - Venue Locale - Venue Name
+    //
+       CSS 
+    include includes/_css.jade
+    //
+       End CSS 
+    
+body(style='background-color:#000;')
+  include includes/_top_bar_consumer.jade
+  .venue_container.small-12.small-centered.large-4.columns.medium-6(style='background-color:#3b3b3b;padding:0;')
+    .row
+      .small-12.small-centered.text-center
+        h4.white Venue Name
+    .row
+      .small-12.small-centered.columns.large-10
+        ul#venue_images(data-orbit)
+          li.venue
+              img.small-12.large-12(src='https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/1.jpg')
+          li.venue
+              img.small-12.large-12(src='https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/2.jpg')
+          li.venue
+              img.small-12.large-12(src='https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/3.jpg')
+          li.venue
+              img.small-12.large-12(src='https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/4.jpg')
+          li.venue
+              img.small-12.large-12(src='https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/5.jpg')
+    .row
+      .small-12.small-centered.columns.large-10.venue_details
+        h5.subheader.white Details
+    .row.hide_scroll
+      .small-12.small-centered.columns.large-10.venue_details
+        p.white
+          | Gluten-free Helvetica church-key Cosby sweater, XOXO swag try-hard DIY. Banksy direct trade Helvetica, Shoreditch scenester yr street art lomo post-ironic American Apparel. Wolf flexitarian bicycle rights, Schlitz Wes Anderson PBR literally typewriter mumblecore drinking vinegar keytar Shoreditch Etsy. Keffiyeh tousled Marfa ennui, pug readymade roof party Intelligentsia actually. Chillwave umami cliche, Vice Godard squid wolf kale chips occupy hashtag High Life flannel PBR&B. Biodiesel PBR&B ethical beard lo-fi pickled. Tote bag High Life lo-fi mumblecore, mixtape Godard scenester readymade.
+        p.white
+          | Kogi salvia mumblecore, fanny pack stumptown direct trade fixie meh YOLO forage 8-bit chambray American Apparel Odd Future. Banksy meh lomo tofu messenger bag, pour-over umami mlkshk craft beer gastropub put a bird on it aesthetic Godard. Hella jean shorts art party, small batch food truck locavore tousled. Williamsburg salvia asymmetrical PBR&B, slow-carb mlkshk brunch pour-over. Etsy Tonx authentic, DIY mustache food truck chia gluten-free put a bird on it Tumblr sustainable Blue Bottle actually. Wes Anderson small batch gastropub, twee banh mi wayfarers Thundercats Carles PBR&B roof party tousled. Synth occupy stumptown beard brunch Bushwick, mumblecore squid deep v leggings ugh.
+    .row
+      .small-12.small-centered.columns.large-10
+        a(href='#').button.expand Book Now
+
+  include includes/_script.jade

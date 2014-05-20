@@ -47,9 +47,14 @@
         <!--Right Nav Section -->
         <ul class="right">
           <li><a href="https://itunes.apple.com/us/app/bottlestonight/id631017967?mt=8&amp;uo=4" target="itunes_store">Download the App</a></li>
-          <li><a href="what-is-bottleservice.html">What is Bottle Service?</a></li>
           <li><a href="faq.html">FAQ</a></li>
-          <li><a href="team.html">Team </a></li>
+          <li class="has-dropdown"><a href="/cities/">Venues</a>
+            <ul class="dropdown">
+              <li><a href="/cities/San%20Francisco">San Francisco</a></li>
+              <li><a href="/cities/Los%20Angeles">Los Angeles</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Team</a></li>
           <li><a href="http://blog.bottlestonightapp.com" target="_blank">Blog </a></li>
         </ul>
         <ul class="left">
@@ -79,5 +84,5 @@
     </div>
   </div>
   <script src="js/app.js"></script>
-  <script>$(document).foundation()</script>
+  <script>$(document).foundation({orbit: {bullets: false,timer: false,slide_number:false}});</script>
 </body>

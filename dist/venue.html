@@ -19,7 +19,7 @@
   <meta name="apple-itunes-app" content="app-id=631017967">
   <!--META TAGS 
   -->
-  <title>BottlesTonight - Same Day Bottle Service App - Team</title>
+  <title>BottlesTonight - Same Day Bottle Service App - Venue Locale - Venue Name</title>
   <!--CSS 
   -->
   <link rel="stylesheet" href="css/app.css">
@@ -30,15 +30,10 @@
   <link rel="stylesheet" media="only screen and (max-width: 40em)" href="css/style_480.css">
   <!--
   End CSS 
-  John Rushworth (co-founder): Sales, biz dev, marketing, design, enabler 
-  Steven Templeman (co-founder): Ruby, iOS, Android, design, family man
-  Patrick Smith: Web, SEO/SEM, security expert, stud
-  Natalia Stone: Professional photographer, engineer, one successful exit, queen
-  Tara Landers: Community manager, content writer, voice of BottlesTonight
   
   -->
 </head>
-<body>
+<body style="background-color:#000;">
   <!--TOP BAR, STICKY -->
   <div data-options="sticky_on: large" class="contain-to-grid sticky z-999">
     <nav data-topbar="data-topbar" class="top-bar">
@@ -69,29 +64,36 @@
     </nav>
   </div>
   <!--END TOP BAR -->
-  <div id="team" class="feature_display">
+  <div style="background-color:#3b3b3b;padding:0;" class="venue_container small-12 small-centered large-4 columns medium-6">
     <div class="row">
-      <div class="small-12 small-centered large-12 columns">
-        <h1 class="white">Our amazing team of talented people</h1>
+      <div class="small-12 small-centered text-center">
+        <h4 class="white">Venue Name</h4>
       </div>
     </div>
     <div class="row">
-      <div class="small-12 small-centered large-12 columns">
-        <ul class="small-block-grid-1 medium-block-grid-3">
-          <li><img src="img/jrush.jpg">John Rushworth (co-founder): Sales, biz dev, marketing, design, enabler</li>
-          <li><img src="img/steven.jpg">Steven Templeman (co-founder): Ruby, iOS, Android, design, family man</li>
-          <li><img src="img/natalia.jpg">Natalia Stone: Professional photographer, engineer, one successful exit, queen</li>
+      <div class="small-12 small-centered columns large-10">
+        <ul id="venue_images" data-orbit>
+          <li class="venue"><img src="https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/1.jpg" class="small-12 large-12"></li>
+          <li class="venue"><img src="https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/2.jpg" class="small-12 large-12"></li>
+          <li class="venue"><img src="https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/3.jpg" class="small-12 large-12"></li>
+          <li class="venue"><img src="https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/4.jpg" class="small-12 large-12"></li>
+          <li class="venue"><img src="https://s3-us-west-1.amazonaws.com/bottlestonight/venues/region/5.jpg" class="small-12 large-12"></li>
         </ul>
       </div>
     </div>
     <div class="row">
-      <div class="small-12 small-centered large-12 columns">
-        <ul class="small-block-grid-1 medium-block-grid-3">
-          <li><img src="img/patrick.jpg">Patrick Smith: Web, SEO/SEM, security expert, dog lover</li>
-          <li><img src="img/tara.jpg">Tara Landers: Community manager, content writer, voice of BottlesTonight</li>
-          <li><img src="img/rafael.jpg">Rafael Diaz: Brand ambassador, social media magnate, two-stepper</li>
-        </ul>
+      <div class="small-12 small-centered columns large-10 venue_details">
+        <h5 class="subheader white">Details</h5>
       </div>
+    </div>
+    <div class="row hide_scroll">
+      <div class="small-12 small-centered columns large-10 venue_details">
+        <p class="white">Gluten-free Helvetica church-key Cosby sweater, XOXO swag try-hard DIY. Banksy direct trade Helvetica, Shoreditch scenester yr street art lomo post-ironic American Apparel. Wolf flexitarian bicycle rights, Schlitz Wes Anderson PBR literally typewriter mumblecore drinking vinegar keytar Shoreditch Etsy. Keffiyeh tousled Marfa ennui, pug readymade roof party Intelligentsia actually. Chillwave umami cliche, Vice Godard squid wolf kale chips occupy hashtag High Life flannel PBR&B. Biodiesel PBR&B ethical beard lo-fi pickled. Tote bag High Life lo-fi mumblecore, mixtape Godard scenester readymade.</p>
+        <p class="white">Kogi salvia mumblecore, fanny pack stumptown direct trade fixie meh YOLO forage 8-bit chambray American Apparel Odd Future. Banksy meh lomo tofu messenger bag, pour-over umami mlkshk craft beer gastropub put a bird on it aesthetic Godard. Hella jean shorts art party, small batch food truck locavore tousled. Williamsburg salvia asymmetrical PBR&B, slow-carb mlkshk brunch pour-over. Etsy Tonx authentic, DIY mustache food truck chia gluten-free put a bird on it Tumblr sustainable Blue Bottle actually. Wes Anderson small batch gastropub, twee banh mi wayfarers Thundercats Carles PBR&B roof party tousled. Synth occupy stumptown beard brunch Bushwick, mumblecore squid deep v leggings ugh.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 small-centered columns large-10"><a href="#" class="button expand">Book Now</a></div>
     </div>
   </div>
   <script src="js/app.js"></script>
